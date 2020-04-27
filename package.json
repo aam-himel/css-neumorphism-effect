@@ -1,0 +1,24 @@
+{
+  "name": "css-neumorphism-effect",
+  "version": "1.0.0",
+  "description": "CSS representation of Neumorphism ",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aam-himel/css-neumorphism-effect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aam-himel/css-neumorphism-effect/issues"
+  },
+  "homepage": "https://github.com/aam-himel/css-neumorphism-effect"
+}
