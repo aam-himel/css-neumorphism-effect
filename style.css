@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ebf5fc;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+.container .card {
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 30px 30px;
+    background: #ebf5fc;
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, .8),
+                6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container .card:hover {
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, .8),
+                inset 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.container .card .imgBx{
+    position: relative;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: wheat;
+}
+
+.contentBx {
+    padding: 10px;
+    text-align: center;
+}
+
+.contentBx h1 {
+    font-weight: 700;
+    padding-bottom: 1rem;
+    color: wheat;
+}
+
+.contentBx p {
+    letter-spacing: 1px;
+    color: rgb(48, 40, 40);
+}
+
+.card .contentBx a {
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    display: inline-block;
+    box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.87),
+                5px 5px 20px rgba(0, 0, 0, 0.212);
+}
+
+.card .contentBx a:hover span{
+    display: block;
+    transform: scale(.98);
+}
+
+.card .contentBx a:hover {
+    box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.8),
+                inset 5px 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover .contentBx,
+.card:hover .imgBx
+{
+    transform: scale(0.98);
+}
